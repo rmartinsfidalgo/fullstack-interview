@@ -1,0 +1,19 @@
+spring:
+  main:
+    web-application-type: none
+  threads:
+    virtual:
+      enabled: true
+  artemis:
+    mode: embedded
+    embedded:
+      enabled: true
+      persistent: false
+      queues: alert.notifications
+
+logging:
+  level:
+    org.apache.activemq.audit.base: OFF
+    org.apache.activemq.audit.resource: OFF
+    org.apache.activemq.audit.message: OFF
+    org.apache.activemq.artemis.core.server: ERROR
