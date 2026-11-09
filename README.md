@@ -28,7 +28,7 @@ The simulator will publish a new notification event every 15-45 seconds.
 
 ### Backend
 
-- REST API of your design
+- An API of your design
 - Notifications can be created, listed, and have their status advanced
 - Status transitions are one-way: `OPEN → IN_PROGRESS → RESOLVED`
 - Advancing to `RESOLVED` requires a resolution note
