@@ -67,7 +67,7 @@ silently ignored or stored as-is.
 You can keep the UI functional - we're evaluating the full stack, not the design.
 
 - Display notifications - how you handle volume and pagination is your call
-- Notifications must appear without a manual refresh
+- New notifications must appear without a manual refresh
 - Allow advancing the status of a notification inline
 - When advancing to `RESOLVED`, prompt for a resolution note
 - Errors must be handled - how you surface them is your call
